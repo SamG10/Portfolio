@@ -1,0 +1,64 @@
+.competence {
+    background-color: #3B7380;
+    background-size: cover;
+    height: 100vh;
+}
+
+#competenceh1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #fff;
+}
+#comph2 {
+    display: flex;
+    justify-content: center;
+}
+.global_comp1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.global_comp2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.global_comp3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.comp_img1 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.comp_img1 img {
+    width: 70px;
+}
+.comp_img2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.comp_img2 img {
+    width: 70px;
+}
+.comp_img3 {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.comp_img3 img {
+    width: 70px;
+}

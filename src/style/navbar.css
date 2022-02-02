@@ -1,0 +1,40 @@
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    width: 97%;
+    position: absolute;
+}
+.navbar img {
+    width: 35px;
+}
+.burger {
+    border: none;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    cursor: pointer;
+}
+.burger span {
+    height: 4px;
+    width: 40px;
+    background-color: #fff;
+}
+.nom {
+    color: #00E0FF;
+}
+#title {
+    color: #fff;
+}
+.right {
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

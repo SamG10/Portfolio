@@ -1,0 +1,50 @@
+.top {
+    background-image: url(../media/fond-section-top.png);
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container_top {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5rem;
+    color: #fff;
+}
+.container_top h3 {
+    font-size: 3.5rem;
+}
+.container_top h1 {
+    font-size: 4rem;
+}
+.container_top p {
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+
+.btn_download {
+    border: 3px solid #00E0FF;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    width: 180px;
+    height: 50px;
+}
+.btn_download:hover {
+    background-color: #00E0FF;
+}
+.btn_download a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.student {
+    color: #00E0FF;
+    font-size: 1.2rem;
+    font-style: italic;
+}
