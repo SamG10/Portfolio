@@ -1,5 +1,5 @@
 .competence {
-    background-color: #3B7380;
+    background-color: rgb(59, 115, 128);
     background-size: cover;
     height: 100vh;
 }
@@ -37,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .comp_img1 img {
     width: 70px;
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .comp_img2 img {
     width: 70px;
@@ -56,7 +56,7 @@
     width: 60%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 .comp_img3 img {
