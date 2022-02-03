@@ -15,7 +15,7 @@ const Portfolio = () => {
 <div className="global_portfolio">
     <div className="card_portfolio">
     <div className="card_text">
-        <a href="#"><img src={noel} alt="" /></a>
+        <a href=""><img src={noel} alt="" /></a>
     </div>
     <div className="card_body">
         <h3>Tirage au sort de Noel</h3>
@@ -24,7 +24,7 @@ const Portfolio = () => {
 </div>
 <div className="card_portfolio">
     <div className="card_text">
-        <a href="#"><img src={tmdb} alt="" /></a>
+        <a href=""><img src={tmdb} alt="" /></a>
     </div>
     <div className="card_body">
         <h3>TMDB</h3>

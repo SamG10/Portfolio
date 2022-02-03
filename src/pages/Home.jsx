@@ -10,23 +10,23 @@ import Contact from '../components/ContactController';
 const Home = () => {
     return <>
 
-    <section className="top">
+    <section className="top" id="acc">
       <Accueil/>
     </section>
     
-    <section className="competence">
+    <section className="competence" id="comp">
         <Competences/>
     </section>
 
-    <section className="cv">
+    <section className="cv" id="cv">
        <Cv/>
     </section>
 
-    <section className="portfolio">
+    <section className="portfolio" id="port">
         <Portfolio/>
     </section>
 
-    <section className="contact">
+    <section className="contact" id="cont">
        <Contact/>
     </section>
         
