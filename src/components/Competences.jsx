@@ -19,15 +19,16 @@ const Competences = () => {
 
     return <>
         <h1 id="competenceh1">Compétences</h1>
-            <h2 id="comph2">Languages</h2>  
+        
+                    <h2 id="comph2">Languages</h2>  
                  <div className="global_comp1">
                         <div className="comp_img1">
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={php} alt="" />
-                        <img src={sql} alt="" />
-                        <img src={mysql} alt="" />
+                        <img src={html} alt="html" />
+                        <img src={css} alt="css" />
+                        <img src={js} alt="js" />
+                        <img src={php} alt="php" />
+                        <img src={sql} alt="sql" />
+                        <img src={mysql} alt="mysql" />
                     </div>
                     </div>
 
@@ -35,9 +36,9 @@ const Competences = () => {
                     
                     <div className="global_comp2">
                         <div className="comp_img2">
-                        <img src={bootstrap} alt="" />
-                        <img src={react} alt="" />
-                        <img src={symfony} alt="" />
+                        <img src={bootstrap} alt="bootstrap" />
+                        <img src={react} alt="react" />
+                        <img src={symfony} alt="symfony" />
                     </div>
                     </div>
                     
@@ -45,10 +46,10 @@ const Competences = () => {
                     
                     <div className="global_comp3">
                         <div className="comp_img3">
-                        <img src={figma} alt="" />
-                        <img src={photoshop} alt="" />
-                        <img src={illustrator} alt="" />
-                        <img src={git} alt="" />
+                        <img src={figma} alt="figma" />
+                        <img src={photoshop} alt="photoshop" />
+                        <img src={illustrator} alt="illustrator" />
+                        <img src={git} alt="git" />
                     </div>
                     </div>
            

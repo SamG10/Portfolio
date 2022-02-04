@@ -17,6 +17,9 @@
     display: flex;
     justify-content: center;
 }
+ h2 {
+    color: rgb(27, 48, 63);
+}
 .global_comp1 {
     display: flex;
     justify-content: center;

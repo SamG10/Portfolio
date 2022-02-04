@@ -5,8 +5,6 @@ init("user_07xqIGqtaq0rovv24xqdj");
 
 const App = () => {
   const [name, setName] = useState("");
-  // const [company, setCompany] = useState("");
-  // const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -61,8 +59,6 @@ const App = () => {
     if (name && isEmail() && message) {
     sendFeedback("template_zst7mea", {
       name,
-      // company,
-      // phone,
       email,
       message,
     });
@@ -78,8 +74,6 @@ const App = () => {
       .then((res) => {
         successMessage();
         setName("");
-        // setCompany("");
-        // setPhone("");
         setEmail("");
         setMessage("");
       })
@@ -104,22 +98,6 @@ const App = () => {
           value={name}
           autoComplete="off"
         />
-        {/* <input
-          type="text"
-          id="company"
-          name="company"
-          onChange={(e) => setCompany(e.target.value)}
-          placeholder="société"
-          value={company}
-        />
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-          onChange={(e) => setPhone(e.target.value)}
-          placeholder="téléphone"
-          value={phone}
-        /> */}
         <div className="email-content">
           <label id="not-mail">Email non valide</label>
           <input
