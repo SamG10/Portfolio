@@ -25,14 +25,11 @@ export default function Navbar() {
 }, []);
 
 const changeVisibilityGithub = () => {
-  if(window.scrollY >= 80){
+  if(window.scrollY >= 100){
     setGithub(true);
-  }else {
-    setGithub(false);
-  }
-  if(window.scrollY >= 300){
     setLinkedin(true);
   }else {
+    setGithub(false);
     setLinkedin(false);
   }
 }

@@ -136,7 +136,10 @@
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 580px){
+    #title {
+        visibility: hidden;
+    }
     .list {
         width: 50%;
     }
