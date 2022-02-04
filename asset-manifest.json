@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c2ca5775.css",
-    "main.js": "/portfolio/static/js/main.4f4a4d3a.js",
+    "main.css": "/portfolio/static/css/main.24ef8a9a.css",
+    "main.js": "/portfolio/static/js/main.54c5df49.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fond-section-top.png": "/portfolio/static/media/fond-section-top.4c02a7fd31e343e30b9f.png",
     "static/media/tmdb.png": "/portfolio/static/media/tmdb.5032e59f1474de884173.png",
@@ -14,18 +14,18 @@
     "static/media/illustrator.svg": "/portfolio/static/media/illustrator.5f614072e9fb140958885fa0f26b1cf0.svg",
     "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.5b5581c076145d418fca0dd3b03a5c6a.svg",
     "static/media/sql.svg": "/portfolio/static/media/sql.8f46c2a631cd0fc645fdb054ffbefcf2.svg",
-    "static/media/figma.svg": "/portfolio/static/media/figma.1dd75fd7f5bb2e51adf7f23dfed05c37.svg",
+    "static/media/figma.svg": "/portfolio/static/media/figma.c173c70097a7160c237e6d0bd40a54b3.svg",
     "static/media/php.svg": "/portfolio/static/media/php.480dc1f0815c43688eff70a85ebd9174.svg",
     "static/media/js.svg": "/portfolio/static/media/js.b96d2f20503c1066b9e505eec87bf59b.svg",
     "index.html": "/portfolio/index.html",
     "static/media/html.svg": "/portfolio/static/media/html.ac9c7ba12de891b8a97fe692009a65e9.svg",
     "static/media/css.svg": "/portfolio/static/media/css.23a8ab3c8c125006441fc96dbb402f0c.svg",
-    "main.c2ca5775.css.map": "/portfolio/static/css/main.c2ca5775.css.map",
-    "main.4f4a4d3a.js.map": "/portfolio/static/js/main.4f4a4d3a.js.map",
+    "main.24ef8a9a.css.map": "/portfolio/static/css/main.24ef8a9a.css.map",
+    "main.54c5df49.js.map": "/portfolio/static/js/main.54c5df49.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ca5775.css",
-    "static/js/main.4f4a4d3a.js"
+    "static/css/main.24ef8a9a.css",
+    "static/js/main.54c5df49.js"
   ]
 }
