@@ -9,7 +9,12 @@
     height: 50px;
     width: 95%;
     z-index: 999;
+}  
+
+.active {
+    opacity: 0;
 }
+  
 
 .fa-github, .fa-linkedin {
     color: #fff;
@@ -19,6 +24,12 @@
   .fa-github:hover, .fa-linkedin:hover {
     color: #18dcff;
     transform: scale(2.7);
+  }
+  .activegit{
+      display: none;
+  }
+  .activelinkedin {
+      display: none;
   }
 
 .list {
