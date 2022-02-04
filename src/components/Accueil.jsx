@@ -14,7 +14,7 @@ const Accueil = () => {
             <p className="student">Etudiant développeur web Full Stack</p>
             
             <button className="btn_download">
-                <a href="./cv.pdf">Télécharger mon CV</a>
+                <a href="./cv.pdf">Télécharger mon cv</a>
             </button>
         </div>
         
