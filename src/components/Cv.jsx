@@ -8,7 +8,7 @@ import '../style/cv.css';
 const Cv = () => {
 
     return <>
-         <h1 id="cvh1">Curriculum Vitae</h1>
+         <h1 id="cvh1">Cv</h1>
         <div className="lol">
             <div className="background-cv">
             <div className="contenant">

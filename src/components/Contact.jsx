@@ -93,7 +93,7 @@ const App = () => {
   return <>
   <div className="global-form">
     <form className="contact-form">
-      <h2>Contactez-nous</h2>
+      <h2>Contactez-moi</h2>
       <div className="form-content">
         <input
           type="text"

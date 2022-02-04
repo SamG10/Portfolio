@@ -1,7 +1,5 @@
 import React from 'react';
 import '../style/contact.css';
-import github from '../media/github.svg';
-import linkedin from '../media/linkedin.svg';
 import App from './Contact';
 import '../style/contact.css';
 
@@ -13,8 +11,8 @@ const ContactController = () => {
     <App/>
         <footer>
             <div className="img_social">
-                <a href="#"><img src={github} alt="" /></a> 
-                <a href="#"><img src={linkedin} alt="" /></a> 
+                <a href="https://github.com/SamG10"><i class="fab fa-github"></i></a> 
+                <a href="https://www.linkedin.com/in/samuel-george-10/"><i class="fab fa-linkedin"></i></a> 
             </div>
  
             <p>Copyright Samuel George. &copy; 2022</p>

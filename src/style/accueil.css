@@ -36,6 +36,7 @@
 }
 .btn_download:hover {
     background-color: #00E0FF;
+    transition: linear 0.3s;
 }
 .btn_download a {
     text-decoration: none;
@@ -47,4 +48,31 @@
     color: #00E0FF;
     font-size: 1.2rem;
     font-style: italic;
+}
+
+
+
+@media only screen and (max-width: 580px){
+    
+    .container_top h3 {
+        font-size: 2rem;
+    }
+    .container_top h1 {
+        font-size: 1.8rem;
+    }
+    .container_top p {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 360px){
+    
+    .container_top h3 {
+        font-size: 1.6rem;
+    }
+    .container_top h1 {
+        font-size: 1.4rem;
+    }
+    .container_top p {
+        font-size: 0.8rem;
+    }
 }

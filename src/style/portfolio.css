@@ -9,7 +9,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 60px;
     align-items: center;
     font-size: 2.5rem;
     color: #fff;
@@ -36,4 +36,69 @@
     height: 100px;
     padding: 10px;
     background-color: #fff;
+}
+.card_body h3 {
+    margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    .card_portfolio {
+        width: 400px;
+        height: 300px;
+    }
+    .card_text img {
+        width: 400px;
+    }
+    .card_text {
+        height: 200px;
+    }
+    .card_body p {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 870px){
+    .card_portfolio {
+        width: 300px;
+        height: 200px;
+    }
+    .card_text img {
+        width: 300px;
+    }
+    .card_text {
+        height: 150px;
+    }
+    .card_body p {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 745px){
+    .global_portfolio {
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+    }
+    .card_portfolio {
+        width: 200px;
+        height: 100px;
+    }
+    .card_text img {
+        width: 200px;
+    }
+    .card_text {
+        height: 100px;
+    }
+    .card_body p {
+        font-size: 0.6rem;
+    }
+    .card_body h3 {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #portfolioh1 {
+        font-size: 2rem;
+    }
 }

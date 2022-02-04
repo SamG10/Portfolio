@@ -8,7 +8,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 125px;
+    height: 60px;
     align-items: center;
     font-size: 2.5rem;
     color: #fff;
@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
 }
 .global_comp2 {
     display: flex;
@@ -61,4 +62,34 @@
 }
 .comp_img3 img {
     width: 70px;
+}
+
+
+@media only screen and (max-width: 700px){
+    .global_comp1, .global_comp2, .global_comp3 {
+        margin-top: 0;
+    }
+    .comp_img1, .comp_img2, .comp_img3 {
+        width: 70%;
+    }
+    .comp_img1 img, .comp_img2 img, .comp_img3 img {
+        width: 50px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #competenceh1 {
+        font-size: 2rem;
+    }
+    #comph2 {
+        font-size: 1.5rem;
+    }
+    .global_comp1, .global_comp2, .global_comp3 {
+        margin-top: 0;
+    }
+    .comp_img1, .comp_img2, .comp_img3 {
+        width: 80%;
+    }
+    .comp_img1 img, .comp_img2 img, .comp_img3 img {
+        width: 40px;
+    }
 }

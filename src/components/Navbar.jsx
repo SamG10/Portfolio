@@ -1,37 +1,6 @@
 import React, {useState, useEffect} from 'react';
 // import '../style/navbar.css';
 import '../style/navbar.css';
-import github from '../media/github.png';
-import linkedin from '../media/linkedin.png';
-
-// const Navbar = () => {
-    
-//     return (
-//       <>
-//         <nav className="navbar">
-//           <h1 id="title">Samuel <strong class="nom"> George.</strong></h1>
-//           <div className="all_links">
-//             <a href="#" id="test">Accueil</a>
-//             <a href="#" id="test">Compétences</a>
-//             <a href="#" id="test">Cv</a>
-//             <a href="#" id="test">Portfolio</a>
-//             <a href="#" id="test">Contact</a>
-//           </div>
-//           <div className="right">
-//             <a href="#"><img src={github} alt=""/></a> 
-//             <a href="#"><img src={linkedin} alt=""/></a> 
-
-//           <button className="burger">
-//             <span></span>
-//             <span></span>
-//             <span></span>
-//           </button>
-//           </div>
-//         </nav>
-
-
-// }
-// export default Navbar;
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -39,7 +8,18 @@ export default function Navbar() {
   const toggleNav = () => {
     setToggleMenu(!toggleMenu)
   }
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const Navbar = () => {
+    const [show, setShow] = useState(false)
+    const controlNavbar = () => {
+        if (window.scrollY > 250 ) {
+            setShow(true)
+        }else{
+          setShow(false)
+        }
+    }
+  };
 
   useEffect(() => {
 
@@ -53,13 +33,13 @@ export default function Navbar() {
       window.removeEventListener('resize', changeWidth)
   }
   
-}, [])
+}, []);
 
 
   return (
     <nav className="navbar">
        <h1 id="title">Samuel <strong class="nom"> George.</strong></h1>
-      {(toggleMenu || screenWidth > 1600) && (
+      {(toggleMenu || screenWidth > 2560) && (
       <div className="list">
         <a href="#acc" className="items">Accueil</a>
         <a href="#comp" className="items">Compétences</a>
@@ -69,8 +49,8 @@ export default function Navbar() {
       </div>
       )}
       <div className="right">
-        <a href="#"><img src={github} alt=""/></a> 
-        <a href="#"><img src={linkedin} alt=""/></a> 
+        <a href="https://github.com/SamG10"><i class="fab fa-github"></i></a> 
+        <a href="https://www.linkedin.com/in/samuel-george-10/"><i class="fab fa-linkedin"></i></a> 
       <button onClick={toggleNav} className="burger">
         <span></span>
         <span></span>
@@ -80,4 +60,3 @@ export default function Navbar() {
     </nav>
   )
 }
-

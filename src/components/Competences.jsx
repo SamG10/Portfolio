@@ -19,8 +19,8 @@ const Competences = () => {
 
     return <>
         <h1 id="competenceh1">Compétences</h1>
-            <h2 id="comph2">Languages</h2>
-            <div className="global_comp1">
+            <h2 id="comph2">Languages</h2>  
+                 <div className="global_comp1">
                         <div className="comp_img1">
                         <img src={html} alt="" />
                         <img src={css} alt="" />
@@ -51,6 +51,7 @@ const Competences = () => {
                         <img src={git} alt="" />
                     </div>
                     </div>
+           
     </>
 }
 export default Competences;

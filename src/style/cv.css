@@ -10,7 +10,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 60px;
     align-items: center;
     font-size: 2.5rem;
     color: #fff;
@@ -48,7 +48,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    float: right;
     margin: 10px;
     color: #fff;
 }
@@ -62,7 +61,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    float: right;
     margin: 10px;
     color: #fff;
 }
@@ -76,7 +74,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    float: right;
     margin: 10px;
     color: #fff;
 }
@@ -89,4 +86,88 @@
     width: 20px;
     background-color: rgb(0, 225, 255);
     margin: 10px;
+}
+
+@media only screen and (max-width: 960px){
+    .lol {
+        height: 95vh;
+    }
+    .background-cv {
+        height: 450px;
+        width: 70%;
+    }
+    .contenant {
+        flex-direction: column;
+    }
+    .conteneur-cv1 {
+        width: 450px;
+    }
+    .conteneur-cv1 h3, p, .conteneur-cv2 h3, p, .conteneur-cv3 h3, p {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 700px){
+    .lol {
+        height: 90vh;
+    }
+    .background-cv {
+        height: 450px;
+        width: 70%;
+    }
+    .contenant {
+        flex-direction: column;
+    }
+    .conteneur-cv1, .conteneur-cv2, .conteneur-cv3{
+        width: 350px;
+    }
+    .conteneur-cv1 h3, p, .conteneur-cv2 h3, p, .conteneur-cv3 h3, p {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 520px){
+    #cvh1 {
+        font-size: 2rem;
+    }
+    .lol {
+        height: 90vh;
+    }
+    .background-cv {
+        height: 450px;
+        width: 70%;
+    }
+    .contenant {
+        transform: scale(0.8);
+        flex-direction: column;
+        height: 500px;
+    }
+    .conteneur-cv1, .conteneur-cv2, .conteneur-cv3{
+        width: 300px;
+    }
+    .conteneur-cv1 h3, p, .conteneur-cv2 h3, p, .conteneur-cv3 h3, p {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 380px){
+    .lol {
+        height: 90vh;
+    }
+    .background-cv {
+        height: 350px;
+        width: 70%;
+    }
+    .contenant {
+        transform: scale(0.6);
+        flex-direction: column;
+        height: 500px;
+    }
+    .conteneur-cv1, .conteneur-cv2, .conteneur-cv3{
+        width: 300px;
+    }
+    .conteneur-cv1 h3, p, .conteneur-cv2 h3, p, .conteneur-cv3 h3, p {
+        display: flex;
+        justify-content: center;
+    }
 }

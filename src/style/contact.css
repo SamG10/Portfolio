@@ -17,7 +17,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 60px;
     align-items: center;
     font-size: 2.5rem;
     color: #fff;
@@ -41,9 +41,12 @@ footer {
     width: 120px;
     height: 50px;
 }
-.img_social img {
-    width: 30px;
-}
+
+
+
+
+
+
 
 /* FORMULAIRE */
     .global-form {
@@ -170,4 +173,11 @@ footer {
     color: black;
     border-radius: 4px;
     box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
+  }
+
+
+  @media only screen and (max-width: 500px){
+    #contacth1 {
+      font-size: 2rem;
+  }
   }
