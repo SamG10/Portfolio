@@ -19,6 +19,8 @@ const Competences = () => {
 
     return <>
         <h1 id="competenceh1">Compétences</h1>
+
+        <div className="global_comp">
         
                     <h2 id="comph2">Languages</h2>  
                  <div className="global_comp1">
@@ -52,6 +54,8 @@ const Competences = () => {
                         <img src={git} alt="git" />
                     </div>
                     </div>
+
+        </div>
            
     </>
 }

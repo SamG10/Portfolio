@@ -74,6 +74,7 @@
     }
     .comp_img1, .comp_img2, .comp_img3 {
         width: 70%;
+        margin-top: 40px;
     }
     .comp_img1 img, .comp_img2 img, .comp_img3 img {
         width: 50px;
@@ -89,8 +90,13 @@
     .global_comp1, .global_comp2, .global_comp3 {
         margin-top: 0;
     }
-    .comp_img1, .comp_img2, .comp_img3 {
+    .comp_img1 {
+        margin-top: 50px;
+        width: 90%;
+    }
+    .comp_img2, .comp_img3 {
         width: 80%;
+        margin-top: 50px;
     }
     .comp_img1 img, .comp_img2 img, .comp_img3 img {
         width: 40px;

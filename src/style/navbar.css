@@ -14,8 +14,6 @@
 .active {
     opacity: 0;
 }
-  
-
 .fa-github, .fa-linkedin {
     color: #fff;
     transform: scale(2.5);
