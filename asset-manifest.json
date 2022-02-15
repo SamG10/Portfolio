@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d56cd23d.css",
+    "main.css": "/portfolio/static/css/main.ec05817d.css",
     "main.js": "/portfolio/static/js/main.b69bb4e2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fond-section-top.png": "/portfolio/static/media/fond-section-top.4c02a7fd31e343e30b9f.png",
@@ -20,12 +20,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/html.svg": "/portfolio/static/media/html.ac9c7ba12de891b8a97fe692009a65e9.svg",
     "static/media/css.svg": "/portfolio/static/media/css.23a8ab3c8c125006441fc96dbb402f0c.svg",
-    "main.d56cd23d.css.map": "/portfolio/static/css/main.d56cd23d.css.map",
+    "main.ec05817d.css.map": "/portfolio/static/css/main.ec05817d.css.map",
     "main.b69bb4e2.js.map": "/portfolio/static/js/main.b69bb4e2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d56cd23d.css",
+    "static/css/main.ec05817d.css",
     "static/js/main.b69bb4e2.js"
   ]
 }
