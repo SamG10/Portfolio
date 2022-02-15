@@ -30,8 +30,10 @@ footer {
     background-color: #3B7380;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: -400vh;
+    /* position: absolute;
+    bottom: -400vh; */
+    position: relative; 
+    bottom: -10vh;
     flex-direction: column;
 }
 

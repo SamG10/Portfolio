@@ -3,7 +3,7 @@ import{ init } from '@emailjs/browser';
 init("user_07xqIGqtaq0rovv24xqdj");
 
 
-const App = () => {
+const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -131,4 +131,4 @@ const App = () => {
     </>;
 };
 
-export default App;
+export default Contact;

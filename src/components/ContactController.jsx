@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/contact.css';
-import App from './Contact';
+import Contact from './Contact';
 import '../style/contact.css';
 
 
@@ -8,7 +8,7 @@ const ContactController = () => {
 
     return <>
          <h1 id="contacth1">Contact</h1>
-    <App/>
+    <Contact/>
         <footer>
             <div className="img_social">
                 <a href="https://github.com/SamG10"><i class="fab fa-github"></i></a> 
