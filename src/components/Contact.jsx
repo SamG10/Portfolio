@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import{ init } from '@emailjs/browser';
-import '../style/contactform.css';
 
 init("user_07xqIGqtaq0rovv24xqdj");
 
