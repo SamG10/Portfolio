@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react';
-// import '../style/navbar.css';
 import '../style/navbar.css';
 
-export default function Navbar() {
+export default function Navbar({accueil, competence, cv, portfolio, contact}) {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [github, setGithub] = useState(false);
@@ -33,7 +32,7 @@ const changeVisibilityGithub = () => {
     setLinkedin(false);
   }
 }
-window.addEventListener('scroll', changeVisibilityGithub)
+window.addEventListener('scroll', changeVisibilityGithub); 
 
   return (
     <>
@@ -41,11 +40,11 @@ window.addEventListener('scroll', changeVisibilityGithub)
        <h1 id="title">Samuel <strong className="nom"> George.</strong></h1>
       {(toggleMenu || screenWidth > 2560) && (
       <div className="list">
-        <a href="#acc" className="items">Accueil</a>
-        <a href="#comp" className="items">Compétences</a>
-        <a href="#cv" className="items">Cv</a>
-        <a href="#port" className="items">Portfolio</a>
-        <a href="#cont" className="items">Contact</a>
+        <button onClick={() => accueil('accueil')} className="items">Accueil</button>
+        <button onClick={() => competence('competence')} className="items">Compétences</button>
+        <button onClick={() => cv('cv')} className="items">Cv</button>
+        <button onClick={() => portfolio('portfolio')} className="items">Portfolio</button>
+        <button onClick={() => contact('contact')} className="items">Contact</button>
       </div>
       )}
       <div className="right">

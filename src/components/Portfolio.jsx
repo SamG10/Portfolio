@@ -27,7 +27,7 @@ const Portfolio = () => {
         <a href="https://github.com/SamG10/Tmdb-API" target="__blank"><img src={tmdb} alt="" /></a>
     </div>
     <div className="card_body">
-        <h3>TMDB</h3>
+        <h3>Manipulation API - TMDB</h3>
         <p>Manipulation de l'API TMDB, recupérer les posters, le synopsis, les acteurs, la note de chaque film et les afficher sous forme d'un slider horizontal. Ainsi que la fiche de chaque acteur. </p>
     </div>
 </div>
