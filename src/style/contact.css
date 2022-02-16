@@ -178,7 +178,11 @@
     box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
   }
 
-
+  @media only screen and (max-width: 768px) {
+    .contact {
+        height: 700px;
+    }
+}
   @media only screen and (max-width: 500px){
     #contacth1 {
       font-size: 2rem;

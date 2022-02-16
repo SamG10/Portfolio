@@ -66,8 +66,11 @@
 .comp_img3 img {
     width: 70px;
 }
-
-
+@media only screen and (max-width: 768px) {
+    .competence {
+        height: 700px;
+    }
+}
 @media only screen and (max-width: 700px){
     .global_comp1, .global_comp2, .global_comp3 {
         margin-top: 0;
