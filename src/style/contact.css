@@ -22,7 +22,7 @@
     font-size: 2.5rem;
     color: #fff;
 }
-footer {
+.footer {
     height: 100px;
     width: 100%;
     color: #fff;
@@ -30,11 +30,11 @@ footer {
     background-color: #3B7380;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-top: 9vh;
+    /* position: absolute; */
     /* bottom: -400vh; */
-    /* position: relative; 
-    bottom: 0vh; */
+    /* margin-top: 9vh; */
+    position: relative;
+    bottom: -9vh;
     flex-direction: column;
 }
 
