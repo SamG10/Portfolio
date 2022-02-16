@@ -38,7 +38,7 @@ window.addEventListener('scroll', changeVisibilityGithub)
   return (
     <>
     <nav className={navbar ? 'navbar active' : 'navbar'}>
-       <h1 id="title">Samuel <strong class="nom"> George.</strong></h1>
+       <h1 id="title">Samuel <strong className="nom"> George.</strong></h1>
       {(toggleMenu || screenWidth > 2560) && (
       <div className="list">
         <a href="#acc" className="items">Accueil</a>
@@ -49,8 +49,8 @@ window.addEventListener('scroll', changeVisibilityGithub)
       </div>
       )}
       <div className="right">
-        <a href="https://github.com/SamG10"><i class="fab fa-github" className={github ? 'fa-github activegit' : 'fab fa-github'}></i></a> 
-        <a href="https://www.linkedin.com/in/samuel-george-10/"><i class="fab fa-linkedin" className={linkedin ? 'fa-linkedin activelinkedin' : 'fab fa-linkedin'}></i></a> 
+        <a href="https://github.com/SamG10"><i className="fab fa-github" className={github ? 'fa-github activegit' : 'fab fa-github'}></i></a> 
+        <a href="https://www.linkedin.com/in/samuel-george-10/"><i className="fab fa-linkedin" className={linkedin ? 'fa-linkedin activelinkedin' : 'fab fa-linkedin'}></i></a> 
       <button onClick={toggleNav} className="burger">
         <span></span>
         <span></span>

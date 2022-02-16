@@ -34,7 +34,7 @@ const Cv = () => {
             </div>
             <div className="conteneur-cv3">
                 <h3>ForEachAcademy, Lille</h3>
-                <p className="date-cv">2021 - 22022</p>
+                <p className="date-cv">2021 - 2022</p>
                 <p className="description-cv">Première année développeur web Full Stack</p>
             </div>
         </div>

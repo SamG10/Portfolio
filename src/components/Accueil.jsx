@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/accueil.css';
+import pdf from '../media/cv.pdf';
 
 
 
@@ -14,7 +15,8 @@ const Accueil = () => {
             <p className="student">Etudiant développeur web Full Stack</p>
             
             <button className="btn_download">
-                <a href="./cv.pdf">Télécharger mon cv</a>
+                {/* <a href="./cv.pdf" download>Télécharger mon cv</a> */}
+                <a href={pdf} target = "_blank">Télécharger mon cv</a>
             </button>
         </div>
         
