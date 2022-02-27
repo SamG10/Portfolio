@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/accueil.css';
-import pdf from '../media/cv.pdf';
+import pdf from '../media/CV Samuel GEORGE.pdf';
 
 
 
